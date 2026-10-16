@@ -1,0 +1,33 @@
+name: Check and deploy
+
+# Run the workflow on every push to the main branch.
+# workflow_dispatch also lets you start it manually from the Actions tab.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  run-checks:
+    name: Run checks
+    runs-on: ubuntu-24.04
+    container:
+      image: cpilint/cpilint:1.1.0
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      # Check every integration flow folder in the repository against the rules in IN160-rules.xml.
+      - name: Run the CPILint checks
+        run: cpilint -rules IN160-rules.xml -boring -skipvercheck -unpacked-files */
+
+  deploy-to-qa:
+    name: Deploy to QA
+    # This job only runs if the checks passed.
+    needs: run-checks
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Deploy to QA
+        run: echo "All checks passed. In a real scenario, this job would now transport the integration flow to a QA tenant for testing."

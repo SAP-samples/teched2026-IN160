@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpilint>
+    <rules>
+        <!-- Every integration flow must have a description. -->
+        <iflow-description-required/>
+    </rules>
+</cpilint>

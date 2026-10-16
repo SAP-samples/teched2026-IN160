@@ -1,58 +1,71 @@
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# Session ID - Session Title
+# IN-160 - Explore version control and automation with GitHub in Cloud Integration
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+This repository contains the exercise materials for the SAP TechEd 2026 hands-on workshop called IN-160 - Explore version control and automation with GitHub in Cloud Integration.
 
 ## Overview
 
-This session introduces attendees to...
+The workshop will teach you about the GitHub version control feature of the Cloud Integration capability of SAP Integration Suite.
+
+You will learn how to connect your SAP Integration Suite tenant to a GitHub repository and how to perform the basic Git operations.
+
+The last exercise goes into slightly more advanced territory: Setting up a CI/CD pipeline with GitHub Actions to validate your integration flows.
+
+You will each work on the exercises on your own and at your own pace, but if you have questions or get stuck at any point, please contact your instructors, who will be happy to help you out!
+
+**Important:** During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline. Before you leave the hands-on workshop, sign out of GitHub and SAP Integration Suite.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+To complete the exercises in this repository you need access to an SAP Integration Suite tenant. We provide the two following tenants for the workshop. The instructors will let you know which one you should use. Please stick to that one tenant during the whole workshop.
+
+- Option 1: Workshop tenant [**workshop03a**](https://url.sap/vutrsb)
+- Option 2: Workshop tenant [**workshop03b**](https://url.sap/17o8td)
+
+Log in with user **userXXX** with **XXX** being 001, 002, etc.
+
+**Note**: Please replace **XXX** with the number assigned to you. This number and the password will be provided to you by the instructors at the beginning of the workshop.
+
+## Prerequisites
+
+To complete the exercises in this workshop you need a GitHub user. If you already have one, you can go directly to exercise 1. Otherwise please complete this prerequisite exercise.
+- [Exercise 0 - Create a GitHub account](exercises/ex0/)
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+All the workshop exercises are listed below. Use this section as an index or table of contents. Please note that each exercise builds on the previous one, so they must be completed in the order shown.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+In the first exercise you create a new GitHub repository for your integration flows and set up an access token.
+- [Exercise 1 - Create a GitHub repository and a personal access token](exercises/ex1/)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+In exercise two you connect your tenant to the new repository and create an integration flow.
+- [Exercise 2 - Connect your repository and create an integration flow](exercises/ex2/)
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+In the third exercise you push the new integration flow to your GitHub repository.
+- [Exercise 3 - Push your integration flow to GitHub](exercises/ex3/)
 
-**IMPORTANT**
+In exercise four you clone the repository to your laptop and work on a Groovy script locally.
+- [Exercise 4 - Work with your integration flow locally](exercises/ex4/)
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+Exercise five teaches you how you can import an integration flow from GitHub.
+- [Exercise 5 - Restore your integration flow from GitHub](exercises/ex5/)
+
+In the last exercise you set up a CI/CD pipeline with GitHub Actions.
+- [Exercise 6 - Check your integration flow automatically with GitHub Actions](exercises/ex6/)
 
 ## Contributing
+
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 
 ## Code of Conduct
+
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
-## How to obtain support
+## How to Obtain Support
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+Support for the content in this repository is available during the hands-on workshop for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+
+Copyright (c) 2026 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
