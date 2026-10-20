@@ -21,9 +21,16 @@ The SAP Integration Suite landing page opens.
 
    ![The Git Access tab and the Edit button](images/ex2_step2.png)
 
+>[!TIP]
+>The **Edit** button is located bottom right.
+
 ### Step 3 - Add your repository
 
 1. In the **Repository Details** table, click **Add**.
+
+>[!TIP]
+>If the **Add** button is disabled, you are not in edit mode yet; click **Edit** first.
+
 2. In the dialog, fill in the following fields with the values from Notepad:
    - **Repository URL**: The URL of your repository, `https://github.com/<username>/IN160-User-XX`
    - **Personal Access Token**: Your PAT
