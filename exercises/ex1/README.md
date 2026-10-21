@@ -81,7 +81,7 @@ If GitHub asks you to confirm your password or to authenticate in another way, d
 ### Step 8 - Give the token access to the repository contents
 
 1. Under **Permissions**, click **Add permissions** next to **Repositories** and select **Contents**.
-2. Next to **Contents**, change the access from **Read-only** to **Read and write**.
+2. Next to **Contents**, change the access from **Read-only** to **Read and write**. The permissions should now look like this:
 
    ![The Contents permission set to Read and write](images/ex1_step8.png)
 
