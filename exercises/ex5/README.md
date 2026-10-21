@@ -27,8 +27,9 @@ The package is still in edit mode. In the **Artifacts** tab, click **Add** and c
 
 ### Step 3 - Import the integration flow from GitHub
 
-1. In the dialog, choose **Git Import**.
-2. Fill in the details:
+1. In the dialog, click **Add integrations manually**.
+2. Then choose **Git Import**.
+3. Fill in the details:
    - **Personal Access Token**: Your PAT from Notepad
    - **Repository**: Choose your `IN160-User-XX` repository from the drop-down list
    - **Branch**: Choose `main` from the drop-down list (it's the only option)
@@ -36,7 +37,7 @@ The package is still in edit mode. In the **Artifacts** tab, click **Add** and c
 
    ![The Git Import dialog](images/ex5_step3.png)
 
-3. Click **Add**.
+4. Click **Add**.
 
 Git Import adds the latest version of the integration flow on the `main` branch to your package.
 
