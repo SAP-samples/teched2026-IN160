@@ -30,7 +30,8 @@ In the row of the `IN160 User XX` integration flow, click the **Actions** (**...
 
 2. Click **Push**.
 
-> **Tip:** Write commit messages that describe what you changed. They are what you and your colleagues see in the history of the repository.
+> [!TIP]
+> Write commit messages that describe what you changed and why. They are what you and your colleagues see in the history of the repository.
 
 ### Step 4 - Check the Git information of the integration flow
 
