@@ -27,7 +27,7 @@ The package is still in edit mode. In the **Artifacts** tab, click **Add** and c
 
 ### Step 3 - Import the integration flow from GitHub
 
-1. In the dialog, click **Add integrations manually**.
+1. In the dialog, click **Add Integrations manually**.
 2. Then choose **Git Import**.
 3. Fill in the details:
    - **Personal Access Token**: Your PAT from Notepad
