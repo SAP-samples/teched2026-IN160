@@ -1,6 +1,8 @@
 # Exercise 6 - Check your integration flow automatically with GitHub Actions
 
-In this exercise, you set up a CI/CD pipeline for your integration flow with GitHub Actions. The pipeline runs every time something is pushed to your repository, for example when you push your integration flow from SAP Cloud Integration.
+The final exercise introduces a more advanced topic: CI/CD (Continuous Integration/Continuous Delivery) pipelines. CI/CD pipelines are hosted by your Git platform and are often configured to start when a commit is pushed to your repository. The pipeline then executes a series of steps of your choosing. For regular code, these steps could be compiling the code, performing static analysis, executing tests and finally deploying the code to a QA system if all checks pass. The integration flow pipeline you will set up in this exercise follows the same pattern: a quality check takes the place of compilation and testing, and if it passes, the flow is deployed automatically.
+
+GitHub Actions is GitHub's built-in CI/CD service. In this exercise, you will set up a pipeline for your integration flow. It will run every time something is pushed to your repository, for example when you push your integration flow from SAP Cloud Integration.
 
 The pipeline checks your integration flow with [CPILint](https://github.com/mwittrock/cpilint), an open source tool that checks integration flows against a set of rules. In this exercise, there is a single rule: every integration flow must have a description. If the check fails, the pipeline stops. If it passes, the pipeline continues with a deployment job.
 
