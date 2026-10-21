@@ -18,7 +18,7 @@ You will each work on the exercises on your own and at your own pace, but if you
 > During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline.
 
 > [!IMPORTANT]
-> Before you leave the hands-on workshop, you must delete the GitHub access token and sign out of GitHub and SAP Integration Suite. You do this in [step 9 of exercise 6](exercises/ex6/README.md#step-9---delete-your-pat).
+> Before you leave the hands-on workshop, you must delete the GitHub access token and sign out of GitHub. You do this in [step 9 of exercise 6](exercises/ex6/README.md#step-9---delete-your-pat-and-sign-out-of-github).
 
 ## Requirements
 
