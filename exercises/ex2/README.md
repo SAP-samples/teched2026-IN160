@@ -40,7 +40,8 @@ The SAP Integration Suite landing page opens.
 
 4. Click **Add**.
 
-> **Note:** If the connection fails, check that the repository URL is correct and that you copied the whole PAT. Also check that the PAT has access to your repository and **Read and write** access to **Contents**.
+> [!NOTE]
+> If the connection fails, check that the repository URL is correct and that you copied the whole PAT. Also check that the PAT has access to your repository and **Read and write** access to **Contents**.
 
 ### Step 4 - Save the settings
 
@@ -48,7 +49,8 @@ Your repository is now listed in the **Repository Details** table. Click **Save*
 
 ![Your repository in the Repository Details table and the Save button](images/ex2_step4.png)
 
-> **Note:** The tenant is shared with other participants, so you will see their repositories in the table as well. Only work with your own repository, `IN160-User-XX`.
+> [!NOTE]
+> The tenant is shared with other participants, so you will see their repositories in the table as well. Only work with your own repository, `IN160-User-XX`.
 
 ### Step 5 - Start creating an integration package
 
@@ -65,11 +67,12 @@ Your repository is now listed in the **Repository Details** table. Click **Save*
 
    The **Technical Name** is filled in automatically.
 
-   > **Important:** Other participants work on the same tenant, so make sure you use your own number instead of `XX`.
-
    ![The package details](images/ex2_step6.png)
 
-2. Click **Save**.
+3. Click **Save**.
+
+> [!IMPORTANT]
+> Other participants work on the same tenant, so make sure you use your own number instead of `XX`.
 
 ### Step 7 - Add an integration flow to the package
 
