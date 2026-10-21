@@ -4,7 +4,8 @@ In this exercise, you create the GitHub repository that will hold your integrati
 
 You will need both the repository URL and the PAT in the following exercises, so you will keep them in Notepad.
 
-> **Important:** Your instructor has given you a number. Throughout the exercises, whenever you see `XX`, replace it with your number. For example, if your number is 07, `IN160 User XX` becomes `IN160 User 07`.
+> [!IMPORTANT]
+> Your instructor has given you a number. Throughout the exercises, whenever you see `XX`, replace it with your number. For example, if your number is 07, `IN160 User XX` becomes `IN160 User 07`.
 
 ## Exercise steps
 
@@ -14,7 +15,8 @@ Open the **Start** menu of your laptop, type `Notepad`, and open the **Notepad**
 
 Keep Notepad open for the rest of the hands-on workshop.
 
-> **Note:** You will copy the PAT to Notepad later. This token should be treated like a password, so don't save the Notepad file on the conference laptop.
+> [!NOTE]
+> You will copy the PAT to Notepad later. This token should be treated like a password, so don't save the Notepad file on the conference laptop.
 
 ### Step 2 - Start creating a new repository
 
@@ -83,7 +85,8 @@ If GitHub asks you to confirm your password or to authenticate in another way, d
 
    ![The Contents permission set to Read and write](images/ex1_step8.png)
 
-> **Note:** GitHub automatically adds the **Metadata** permission with read-only access. This is mandatory, so leave it as it is.
+> [!NOTE]
+> GitHub automatically adds the **Metadata** permission with read-only access. This is mandatory, so leave it as it is.
 
 ### Step 9 - Generate the token
 
@@ -96,7 +99,8 @@ If GitHub asks you to confirm your password or to authenticate in another way, d
 
 GitHub now shows your new token.
 
-> **Important:** This is the only time GitHub shows the token. Copy it now. If you lose it, you have to regenerate it.
+> [!IMPORTANT]
+> This is the only time GitHub shows the token. Copy it now. If you lose it, you have to regenerate it.
 
 1. Click the copy icon next to the token.
 
@@ -109,7 +113,8 @@ GitHub now shows your new token.
    PAT: github_pat_...
    ```
 
-> **Note:** Treat the token like a password. Anyone who has it can change the contents of your repository.
+> [!NOTE]
+> Treat the token like a password. Anyone who has it can change the contents of your repository.
 
 ## Summary
 
