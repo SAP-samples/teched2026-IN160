@@ -20,7 +20,8 @@ The CPILint rules are stored in a file at the root level of your repository, nex
 
    ![The Create new file menu entry](images/ex6_step1.png)
 
-> **Important:** Make sure you are on the start page of your repository, and not inside the `IN160_User_XX` folder. GitHub creates the new file in the folder you are looking at, and CPILint only finds the rules file at the root level of the repository.
+> [!IMPORTANT]
+> Make sure you are on the start page of your repository, and not inside the `IN160_User_XX` folder. GitHub creates the new file in the folder you are looking at, and the CPILint command used below looks for the rules file at the root level of the repository.
 
 ### Step 2 - Create the rules file
 
@@ -34,7 +35,8 @@ The CPILint rules are stored in a file at the root level of your repository, nex
 
 The file contains a single rule, `iflow-description-required`. It requires every integration flow to have a description.
 
-> **Note:** In a real scenario, the rules could be stored in a separate repository. The **Run checks** job would then fetch the rules from that repository before running CPILint.
+> [!NOTE]
+> In a real scenario, the rules could be stored in a separate repository. The **Run checks** job would then fetch the rules from that repository before running CPILint.
 
 ### Step 3 - Create the workflow file
 
@@ -66,7 +68,8 @@ Committing the workflow file was also a push to your repository, so the workflow
 
 The run has failed. **Run checks** failed, and **Deploy to QA** was skipped, because it only runs if the checks pass.
 
-> **Note:** GitHub also sends you an email about the failed run. This way, you find out about failed checks even when you aren't looking at the **Actions** tab.
+> [!NOTE]
+> GitHub also sends you an email about the failed run. This way, you find out about failed checks even when you aren't looking at the **Actions** tab.
 
 ### Step 5 - Find out why the check failed
 
