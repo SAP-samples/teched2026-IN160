@@ -14,7 +14,8 @@ The last exercise goes into slightly more advanced territory: Setting up a CI/CD
 
 You will each work on the exercises on your own and at your own pace, but if you have questions or get stuck at any point, please contact your instructors, who will be happy to help you out!
 
-**Important:** During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline. Before you leave the hands-on workshop, sign out of GitHub and SAP Integration Suite.
+> [!IMPORTANT]
+> During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline. Before you leave the hands-on workshop, sign out of GitHub and SAP Integration Suite.
 
 ## Requirements
 
@@ -25,7 +26,8 @@ To complete the exercises in this repository you need access to an SAP Integrati
 
 Log in with user **userXXX** with **XXX** being 001, 002, etc.
 
-**Note**: Please replace **XXX** with the number assigned to you. This number and the password will be provided to you by the instructors at the beginning of the workshop.
+> [!NOTE]
+> Please replace **XXX** with the number assigned to you. This number and the password will be provided to you by the instructors at the beginning of the workshop.
 
 ## Prerequisites
 
