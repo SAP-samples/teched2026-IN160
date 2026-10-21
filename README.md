@@ -4,9 +4,13 @@
 
 This repository contains the exercise materials for the SAP TechEd 2026 hands-on workshop called IN-160 - Explore version control and automation with GitHub in Cloud Integration.
 
+## Introduction to version control and GitHub
+
+Version control is a system that tracks changes to your files over time, so you can see what changed, when, and who changed it — and go back to an earlier state if something goes wrong. Git is the most widely used version control system. It stores your files in a repository, and every time you save a snapshot of your work — called a commit — Git records what changed along with a short message you write to describe the change. GitHub is a platform that hosts Git repositories in the cloud, making it easy to back up your work, share it with colleagues, and collaborate on the same files without overwriting each other's changes.
+
 ## Overview
 
-The workshop will teach you about the GitHub version control feature of the Cloud Integration capability of SAP Integration Suite.
+This workshop will teach you about the GitHub version control feature of the Cloud Integration capability of SAP Integration Suite.
 
 You will learn how to connect your SAP Integration Suite tenant to a GitHub repository and how to perform the basic Git operations.
 
