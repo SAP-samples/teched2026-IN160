@@ -1,8 +1,8 @@
-# IN-160 - Explore version control and automation with GitHub in Cloud Integration
+# IN160 - Explore version control and automation with GitHub in Cloud Integration
 
 ## Description
 
-This repository contains the exercise materials for the SAP TechEd 2026 hands-on workshop called IN-160 - Explore version control and automation with GitHub in Cloud Integration.
+This repository contains the exercise materials for the SAP TechEd 2026 hands-on workshop called IN160 - Explore version control and automation with GitHub in Cloud Integration.
 
 ## Introduction to version control and GitHub
 
