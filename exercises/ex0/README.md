@@ -25,7 +25,8 @@ To complete the exercises in this hands-on workshop, you need a GitHub account.
 
 2. Click **Create account**.
 
-> **Note:** The GitHub account belongs to you, so you can keep using it after the hands-on workshop.
+> [!NOTE]
+> The GitHub account belongs to you, so you can keep using it after the hands-on workshop.
 
 ### Step 3 - Verify that you are human if prompted
 
@@ -50,7 +51,8 @@ You are now on your GitHub dashboard.
 
 ![The GitHub dashboard of a new account](images/ex0_step6.png)
 
-> **Note:** GitHub may ask you to set up two-factor authentication (2FA) for your account. You don't need it for this hands-on workshop, but you can enable it at any time under **Settings** > **Password and authentication**.
+> [!NOTE]
+> GitHub may ask you to set up two-factor authentication (2FA) for your account. You don't need it for this hands-on workshop, but you can enable it at any time under **Settings** > **Password and authentication**.
 
 ## Summary
 
