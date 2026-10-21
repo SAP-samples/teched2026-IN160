@@ -36,7 +36,8 @@ Your repository is private, so Git needs to authenticate with GitHub. The Git Cr
 
 Git now clones the repository into a new folder, `IN160-User-XX`.
 
-> **Note:** The Git Credential Manager stores your PAT on the laptop, so you don't have to sign in again for the rest of this exercise.
+> [!NOTE]
+> The Git Credential Manager stores your PAT on the laptop, so you don't have to sign in again for the rest of this exercise.
 
 ### Step 4 - Go to the repository folder and tell Git who you are
 
@@ -90,7 +91,8 @@ Git shows the differences between your local files and the last commit. Removed 
 
 ![The output of git diff](images/ex4_step7.png)
 
-> **Tip:** If the output ends with a `:` or `(END)`, press **Q** to return to the command line.
+> [!TIP]
+> If the output ends with a `:` or `(END)`, press **Q** to return to the command line.
 
 ### Step 8 - Commit your change
 
