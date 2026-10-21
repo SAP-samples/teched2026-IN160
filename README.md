@@ -15,7 +15,10 @@ The last exercise goes into slightly more advanced territory: Setting up a CI/CD
 You will each work on the exercises on your own and at your own pace, but if you have questions or get stuck at any point, please contact your instructors, who will be happy to help you out!
 
 > [!IMPORTANT]
-> During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline. Before you leave the hands-on workshop, sign out of GitHub and SAP Integration Suite.
+> During the exercises you will log in to GitHub and the SAP Integration Suite tenant. If the browser offers to save your password, please decline.
+
+> [!IMPORTANT]
+> Before you leave the hands-on workshop, you must delete the GitHub access token and sign out of GitHub and SAP Integration Suite. You do this in [step 9 of exercise 6](exercises/ex6/README.md#step-9---delete-your-pat).
 
 ## Requirements
 

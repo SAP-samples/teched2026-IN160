@@ -110,13 +110,19 @@ Push the changed integration flow to GitHub, just like in Exercise 3:
 
 3. Click the **Deploy to QA** job and expand the **Deploy to QA** step to see its message.
 
-### Step 9 - Delete your PAT
+### Step 9 - Delete your PAT and sign out of GitHub
 
-You don't need your PAT anymore. It stays valid for 7 days, so it's a good idea to delete it now.
+> [!WARNING]
+> Complete this step to make sure only you have access to your GitHub account and repository.
+
+You used your PAT to connect to GitHub from the workshop laptop and from SAP Cloud Integration. To ensure that only you have access to your repository and your GitHub account, the final step of this exercise is to delete the token and log out of GitHub in the browser.
 
 1. In GitHub, click your profile picture in the top right corner and choose **Settings**.
 2. Click **Developer settings** at the bottom of the menu on the left, then **Personal access tokens** > **Fine-grained tokens**.
 3. In the row of the `IN160 User XX` token, click **Delete** and confirm.
+4. Click your profile picture in the top right corner again and choose **Sign out**.
+
+   ![Logging out of GitHub](images/ex6_step9.png)
 
 Your repository and your GitHub account stay, so you can come back to them after the hands-on workshop.
 
