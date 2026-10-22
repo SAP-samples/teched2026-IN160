@@ -1,6 +1,6 @@
 # Exercise 3 - Push your integration flow to GitHub
 
-In this exercise, you push the integration flow you created in [Exercise 2](../ex2/README.md) to your GitHub repository. You then explore how the integration flow is stored in the repository, and find the commit that SAP Cloud Integration created.
+In this exercise, you push the integration flow you created in [Exercise 2](../ex2/README.md) to your GitHub repository. You then explore how the integration flow is stored in the repository, and find the commit that Cloud Integration created.
 
 You will need the PAT you stored in Notepad earlier.
 
@@ -68,17 +68,17 @@ Remember where the script is located. You will edit it in a later exercise.
 
    ![The number of commits in your repository](images/ex3_step8.png)
 
-### Step 9 - Find the commit from SAP Cloud Integration
+### Step 9 - Find the commit from Cloud Integration
 
 The list of commits contains two commits:
 
 - The **Initial commit**, which GitHub created together with the README file in Exercise 1.
-- The commit from SAP Cloud Integration, with the commit message you entered in Step 3.
+- The commit from Cloud Integration, with the commit message you entered in Step 3.
 
 ![The list of commits](images/ex3_step9.png)
 
 ## Summary
 
-You have pushed your integration flow from SAP Cloud Integration to your GitHub repository. The integration flow is stored in a folder named after its ID, and its script is located in `src/main/resources/script/`. The push created a new commit in the repository, with the commit message you entered in SAP Cloud Integration.
+You have pushed your integration flow from Cloud Integration to your GitHub repository. The integration flow is stored in a folder named after its ID, and its script is located in `src/main/resources/script/`. The push created a new commit in the repository, with the commit message you entered in Cloud Integration.
 
 Continue to [Exercise 4](../ex4/README.md).

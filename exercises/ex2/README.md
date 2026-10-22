@@ -34,7 +34,7 @@ The SAP Integration Suite landing page opens.
 2. In the dialog, fill in the following fields with the values from Notepad:
    - **Repository URL**: The URL of your repository, `https://github.com/<username>/IN160-User-XX`
    - **Personal Access Token**: Your PAT
-3. Click **Connect**. SAP Cloud Integration connects to your repository and fills in the **Name** and **Description** fields. The description is the one you entered when you created the repository.
+3. Click **Connect**. Cloud Integration connects to your repository and fills in the **Name** and **Description** fields. The description is the one you entered when you created the repository.
 
    ![The dialog for adding a repository](images/ex2_step3.png)
 

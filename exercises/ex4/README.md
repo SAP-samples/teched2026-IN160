@@ -1,8 +1,8 @@
 # Exercise 4 - Work with your integration flow locally
 
-In this exercise, you clone your repository to your laptop and change the integration flow's Groovy script in Visual Studio Code. You commit the change, push it to GitHub, and then pull the updated integration flow into SAP Cloud Integration.
+In this exercise, you clone your repository to your laptop and change the integration flow's Groovy script in Visual Studio Code. You commit the change, push it to GitHub, and then pull the updated integration flow into Cloud Integration.
 
-This shows how developers can work on integration content with their usual tools, and how GitHub connects these tools with SAP Cloud Integration.
+This shows how developers can work on integration content with their usual tools, and how GitHub connects these tools with Cloud Integration.
 
 You will need the repository URL and the PAT you stored in Notepad.
 
@@ -128,9 +128,9 @@ GitHub shows the change to the script, just like `git diff` did on your laptop.
 
 ![The change in GitHub](images/ex4_step11.png)
 
-### Step 12 - Start the Git pull in SAP Cloud Integration
+### Step 12 - Start the Git pull in Cloud Integration
 
-Your integration flow in SAP Cloud Integration still contains the old script. You now pull the change from GitHub.
+Your integration flow in Cloud Integration still contains the old script. You now pull the change from GitHub.
 
 1. In SAP Integration Suite, choose **Design** > **Integrations and APIs** in the menu on the left.
 2. Click your `IN160 User XX` package and open the **Artifacts** tab.
@@ -147,17 +147,17 @@ Your integration flow in SAP Cloud Integration still contains the old script. Yo
 
 3. Click **Pull**.
 
-### Step 14 - Check the script in SAP Cloud Integration
+### Step 14 - Check the script in Cloud Integration
 
 1. Click the `IN160 User XX` integration flow to open it.
 2. Select the **Set payload** step and open its script from the **Processing** tab.
 
-   ![The updated script in SAP Cloud Integration](images/ex4_step14.png)
+   ![The updated script in Cloud Integration](images/ex4_step14.png)
 
 The script now sets the payload to `Payload set in Visual Studio Code`.
 
 ## Summary
 
-You have cloned your repository to your laptop, changed the script in Visual Studio Code, and used `git diff` to see your change. You then committed the change, pushed it to GitHub, and pulled the updated integration flow into SAP Cloud Integration. GitHub now connects your local development tools with SAP Cloud Integration.
+You have cloned your repository to your laptop, changed the script in Visual Studio Code, and used `git diff` to see your change. You then committed the change, pushed it to GitHub, and pulled the updated integration flow into Cloud Integration. GitHub now connects your local development tools with Cloud Integration.
 
 Continue to [Exercise 5](../ex5/README.md).

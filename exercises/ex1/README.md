@@ -1,6 +1,6 @@
 # Exercise 1 - Create a GitHub repository and a personal access token
 
-In this exercise, you create the GitHub repository that will hold your integration flows. You then create a personal access token (PAT), which SAP Cloud Integration uses to access the repository on your behalf.
+In this exercise, you create the GitHub repository that will hold your integration flows. You then create a personal access token (PAT), which Cloud Integration uses to access the repository on your behalf.
 
 You will need both the repository URL and the PAT in the following exercises, so you will keep them in Notepad.
 
@@ -72,7 +72,7 @@ If GitHub asks you to confirm your password or to authenticate in another way, d
 
 1. Fill in the form:
    - **Token name**: `IN160 User XX`
-   - **Description**: `Used by SAP Cloud Integration in the IN160 TechEd hands-on workshop`
+   - **Description**: `Used by Cloud Integration in the IN160 TechEd hands-on workshop`
    - **Resource owner**: Your GitHub username
    - **Expiration**: **7 days**. The token only needs to last for the hands-on workshop.
    - **Repository access**: **Only select repositories**. Then select your `IN160-User-XX` repository from the list.

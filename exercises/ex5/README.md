@@ -68,7 +68,7 @@ Git Import only brings the latest version back to the tenant. The earlier versio
 
 ### Step 7 - Look at an earlier version of the script
 
-The history shows the two commits that changed the script: the push from SAP Cloud Integration in Exercise 3, and your commit from Visual Studio Code in Exercise 4.
+The history shows the two commits that changed the script: the push from Cloud Integration in Exercise 3, and your commit from Visual Studio Code in Exercise 4.
 
 ![The history of the script](images/ex5_step7.png)
 
