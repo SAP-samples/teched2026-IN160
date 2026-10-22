@@ -2,7 +2,7 @@
 
 The final exercise introduces a more advanced topic: CI/CD (Continuous Integration/Continuous Delivery) pipelines. CI/CD pipelines are hosted by your Git platform and are often configured to start when a commit is pushed to your repository. The pipeline then executes a series of steps of your choosing. For regular code, these steps could be compiling the code, performing static analysis, executing tests and finally deploying the code to a QA system if all checks pass. The integration flow pipeline you will set up in this exercise follows the same pattern: a quality check takes the place of compilation and testing, and if it passes, the flow is deployed automatically.
 
-GitHub Actions is GitHub's built-in CI/CD service. In this exercise, you will set up a pipeline for your integration flow. It will run every time something is pushed to your repository, for example when you push your integration flow from SAP Cloud Integration.
+GitHub Actions is GitHub's built-in CI/CD service. In this exercise, you will set up a pipeline for your integration flow. It will run every time something is pushed to your repository, for example when you push your integration flow from Cloud Integration.
 
 The pipeline checks your integration flow with [CPILint](https://github.com/mwittrock/cpilint), an open source tool that checks integration flows against a set of rules. In this exercise, there is a single rule: every integration flow must have a description. If the check fails, the pipeline stops. If it passes, the pipeline continues with a deployment job.
 
@@ -78,7 +78,7 @@ The run has failed. **Run checks** failed, and **Deploy to QA** was skipped, bec
 
    ![The output of CPILint](images/ex6_step5.png)
 
-CPILint reports that your integration flow does not have the required description. You will fix this in SAP Cloud Integration.
+CPILint reports that your integration flow does not have the required description. You will fix this in Cloud Integration.
 
 ### Step 6 - Add a description to your integration flow
 
@@ -103,7 +103,7 @@ Push the changed integration flow to GitHub, just like in Exercise 3:
 
 ### Step 8 - Check the new workflow run
 
-1. Go back to the **Actions** tab of your repository in GitHub. The push from SAP Cloud Integration has started a new workflow run, **Add description**, at the top of the list. It is named after the commit message you entered in Step 7.
+1. Go back to the **Actions** tab of your repository in GitHub. The push from Cloud Integration has started a new workflow run, **Add description**, at the top of the list. It is named after the commit message you entered in Step 7.
 2. Wait until the run has finished, which takes about half a minute, then click it. Both jobs have passed this time.
 
    ![The successful workflow run](images/ex6_step8.png)
@@ -115,7 +115,7 @@ Push the changed integration flow to GitHub, just like in Exercise 3:
 > [!WARNING]
 > Complete this step to make sure only you have access to your GitHub account and repository.
 
-You used your PAT to connect to GitHub from the workshop laptop and from SAP Cloud Integration. To ensure that only you have access to your repository and your GitHub account, the final step of this exercise is to delete the token and log out of GitHub in the browser.
+You used your PAT to connect to GitHub from the workshop laptop and from Cloud Integration. To ensure that only you have access to your repository and your GitHub account, the final step of this exercise is to delete the token and log out of GitHub in the browser.
 
 1. In GitHub, click your profile picture in the top right corner and choose **Settings**.
 2. Click **Developer settings** at the bottom of the menu on the left, then **Personal access tokens** > **Fine-grained tokens**.
@@ -128,6 +128,6 @@ Your repository and your GitHub account stay, so you can come back to them after
 
 ## Summary
 
-You have set up a CI/CD pipeline with GitHub Actions. Every push to your repository, including a Git Push from SAP Cloud Integration, now checks your integration flow with CPILint. The first run failed because your integration flow had no description. After you added the description and pushed again, the checks passed and the pipeline continued with the deployment job.
+You have set up a CI/CD pipeline with GitHub Actions. Every push to your repository, including a Git Push from Cloud Integration, now checks your integration flow with CPILint. The first run failed because your integration flow had no description. After you added the description and pushed again, the checks passed and the pipeline continued with the deployment job.
 
 This was the last exercise. Thank you for taking part in the IN160 hands-on workshop!
