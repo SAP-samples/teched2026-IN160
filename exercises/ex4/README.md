@@ -91,6 +91,9 @@ Git shows the differences between your local files and the last commit. Removed 
 
 ![The output of git diff](images/ex4_step7.png)
 
+> [!NOTE]
+> In the screenshot, everything is green. However, in the default colour scheme, deleted lines are red and added lines are green.
+
 > [!TIP]
 > If the output ends with a `:` or `(END)`, press **Q** to return to the command line.
 
