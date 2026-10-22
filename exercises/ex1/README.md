@@ -28,8 +28,9 @@ Keep Notepad open for the rest of the hands-on workshop.
 ### Step 3 - Create the repository
 
 1. Fill in the form:
+   - **Owner**: If the repository owner is not already selected, choose one from the drop-down list.
    - **Repository name**: `IN160 User XX`, with `XX` replaced by your number, for example `IN160 User 07`. GitHub replaces the spaces with hyphens, so your repository will be called `IN160-User-XX`.
-   - **Description**: `Repository for the IN160 TechEd 2026 hands-on workshop`. The description will be shown in SAP Cloud Integration later.
+   - **Description**: `Repository for the IN160 TechEd 2026 hands-on workshop`. The description will be shown in Cloud Integration later.
    - **Visibility**: **Private**
    - **Add README**: **On**. This creates the repository with a `main` branch, which you need in the following exercises.
 
