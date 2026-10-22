@@ -136,6 +136,8 @@ Your integration flow in SAP Cloud Integration still contains the old script. Yo
 2. Click your `IN160 User XX` package and open the **Artifacts** tab.
 3. In the row of the `IN160 User XX` integration flow, click the **Actions** (**...**) icon and choose **Git Pull**.
 
+![The Git Pull action](images/ex4_step12.png)
+
 ### Step 13 - Pull the integration flow
 
 1. Check that the dialog shows your integration flow, your `IN160-User-XX` repository, and the `main` branch.
